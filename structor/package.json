@@ -24,10 +24,6 @@
   "bin": {
     "structor": "structor.js"
   },
-  "engines": {
-    "npm": ">=3",
-    "node": ">=6"
-  },
   "dependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
