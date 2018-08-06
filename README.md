@@ -5,7 +5,7 @@ Write code using User-friendly GUI Builder 🍇
 ## Run react-gui-builder
 
 ```
-yarn install && yarn dev
+npm run install && npm run dev
 ```
 
 
@@ -34,7 +34,7 @@ npm run start
 
 Then, run deploy script
 ```
-yarn deploy
+npm run deploy
 ```
 
 ## Folder Structure
@@ -52,7 +52,7 @@ yarn deploy
 ├── server
 ├── structor                # GUI Builder App (structor)
 ├── .gitignore
-├── deploy.sh               # deploy script (yarn deploy)
+├── deploy.sh               # deploy script (npm run deploy)
 ├── package.json
 └── README.md
 ```

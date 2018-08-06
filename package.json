@@ -9,14 +9,14 @@
   "license": "MIT",
   "scripts": {
     "init-st": "rm -rf .structor && npm install structor",
-    "prebuild": "yarn build:clean",
+    "prebuild": "npm run build:clean",
     "build": "cross-env NODE_ENV=production webpack --config internals/webpack/webpack.prod.babel.js --color -p --progress",
     "build:clean": "rimraf ./build",
     "start": "cross-env NODE_ENV=development node server",
-    "start:production": "yarn build && yarn start:prod",
+    "start:production": "npm run build && npm run start:prod",
     "start:prod": "cross-env NODE_ENV=production node server",
     "dev": "structor -p 2223",
-    "deploy": "yarn build && git add --all && git commit -m 'save master' && git push origin master && bash deploy.sh"
+    "deploy": "npm run build && git add --all && git commit -m 'save master' && git push origin master && bash deploy.sh"
   },
   "babel": {
     "presets": [
