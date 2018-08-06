@@ -24,6 +24,17 @@ then find result app using
 npm run start
 ```
 
+## How to Deploy
+
+Add your git info in below two files
+- deploy.sh
+- internals/webpack/webpack.base.babel.js
+
+Then, run deploy script
+```
+yarn deploy
+```
+
 ## Folder Structure
 ```
 .
