@@ -5,7 +5,7 @@ Write code using User-friendly GUI Builder 🍇
 ## run react-gui-builder
 
 ```
-npm install && npm run dev
+yarn install && yarn dev
 ```
 
 
