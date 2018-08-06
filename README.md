@@ -2,14 +2,14 @@
 Write code using User-friendly GUI Builder 🍇
 
 
-## run react-gui-builder
+## Run react-gui-builder
 
 ```
 yarn install && yarn dev
 ```
 
 
-## modify react-gui-builder
+## Modify react-gui-builder
 
 ```
 cd react-gui-builder && npm install && npm run build-client-dev
@@ -24,9 +24,11 @@ then find result app using
 npm run start
 ```
 
-## How to Deploy
+## How To Deploy
 
-Add your git info in below two files
+1. Export App or Pages to apply changes to 'React App'
+
+2. Add your git info in below two files
 - deploy.sh
 - internals/webpack/webpack.base.babel.js
 
