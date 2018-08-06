@@ -1,8 +1,8 @@
 {
   "pages": [
     {
-      "pageName": "Page28",
-      "pagePath": "/new-page",
+      "pageName": "Page6",
+      "pagePath": "/home",
       "children": [
         {
           "type": "div",

@@ -1,14 +1,12 @@
 /**
  *
- * Page79
+ * Page6
  *
  */
 
 import React, { Component } from "react";
 
-import { Link } from "modules/Router";
-
-class Page79 extends Component {
+class Page6 extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
   render() {
@@ -25,11 +23,9 @@ class Page79 extends Component {
         >
           <div>
             <h3 style={{ padding: "1em", textAlign: "center" }}>
-              <span>home</span>
+              <span>Click on me and start creating a new cool component.</span>
             </h3>
           </div>
-          <Link to="example-01"><span>example-01</span></Link>
-          <Link to="example-02"><span>example-02</span></Link>
         </div>
 
       </div>
@@ -37,4 +33,4 @@ class Page79 extends Component {
   }
 }
 
-export default Page79;
+export default Page6;
