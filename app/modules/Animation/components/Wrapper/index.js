@@ -1,15 +1,3 @@
-/**
-*
-* Animations
-*
-*/
+import { Wrapper } from 'ruucm-blocks/animation'
 
-import React, { Component } from "react";
-
-class Animations extends Component {
-  render() {
-    return <div />;
-  }
-}
-
-export default Animations;
+export default Wrapper
