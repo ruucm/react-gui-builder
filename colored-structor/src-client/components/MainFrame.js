@@ -14,26 +14,28 @@
  * limitations under the License.
  */
 
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import AppContainer from 'modules/app/containers/AppContainer'
-import AppSpinner from 'modules/app/containers/AppSpinner'
-import AppMessage from 'modules/app/containers/AppMessage'
+import AppContainer from 'modules/app/containers/AppContainer';
+import AppSpinner from 'modules/app/containers/AppSpinner';
+import AppMessage from 'modules/app/containers/AppMessage';
 
 class MainFrame extends Component {
-  constructor(props) {
-    super(props)
-  }
 
-  render() {
-    return (
-      <div style={{ width: '100%', height: '100%' }}>
-        <AppContainer />
-        {/* <AppSpinner /> */}
-        <AppMessage />
-      </div>
-    )
-  }
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        return (
+            <div style={{width: '100%', height: '100%'}}>
+                <AppContainer />
+                <AppSpinner />
+                <AppMessage />
+            </div>
+        );
+    }
 }
 
-export default MainFrame
+export default MainFrame;
+

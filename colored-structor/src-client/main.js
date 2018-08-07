@@ -14,50 +14,46 @@
  * limitations under the License.
  */
 
-import 'babel-polyfill'
+import 'babel-polyfill';
 
-// import 'assets/bootstrap/css/custom/bootstrap.css'
-import 'assets/bootstrap/js/bootstrap.js'
-import 'assets/font-awesome/css/font-awesome.css'
-import 'assets/umy-font/umy-font.css'
-import 'assets/app/css/umyproto.deskpage.css'
-import './app.scss'
+import 'assets/bootstrap/css/custom/bootstrap.css';
+import 'assets/bootstrap/js/bootstrap.js';
+import 'assets/font-awesome/css/font-awesome.css';
+import 'assets/umy-font/umy-font.css';
+import 'assets/app/css/umyproto.deskpage.css';
 
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { createStore, applyMiddleware } from 'redux'
 import createSagaMiddleware from 'redux-saga'
-import { Provider } from 'react-redux'
-import thunk from 'redux-thunk'
+import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
 
-import reducer from 'redux/reducer.js'
-import mainSaga from 'sagas/saga.js'
-import myMiddleware from 'redux/middleware.js'
-import { handleCompilerMessage } from 'modules/app/containers/AppContainer/actions.js'
+import reducer from 'redux/reducer.js';
+import mainSaga from 'sagas/saga.js';
+import myMiddleware from 'redux/middleware.js';
+import { handleCompilerMessage } from 'modules/app/containers/AppContainer/actions.js';
 
-import { MainFrame } from 'components/index'
+import {MainFrame} from 'components/index';
 
-const sagaMiddleware = createSagaMiddleware()
-const store = createStore(
-  reducer,
-  applyMiddleware(myMiddleware, sagaMiddleware, thunk)
-)
-sagaMiddleware.run(mainSaga)
-const { protocol, hostname, port } = window.location
-const socket = io.connect(protocol + '//' + hostname + ':' + port)
-socket.on('invitation', message => console.log(message))
-socket.on('compiler.message', stats => {
-  // console.log('compiler.message: ' + JSON.stringify(stats));
-  store.dispatch(handleCompilerMessage(stats))
-})
+const sagaMiddleware = createSagaMiddleware();
+const store = createStore(reducer, applyMiddleware(myMiddleware, sagaMiddleware, thunk));
+sagaMiddleware.run(mainSaga);
+const { protocol, hostname, port } = window.location;
+const socket = io.connect(protocol + '//' + hostname + ':' + port);
+socket.on( 'invitation', message => console.log(message) );
+socket.on( 'compiler.message', stats => {
+    // console.log('compiler.message: ' + JSON.stringify(stats));
+    store.dispatch(handleCompilerMessage(stats));
+});
 
 //window.onbeforeunload = function(e) {
 //    store.dispatch(saveModel());
 //};
 
 ReactDOM.render(
-  <Provider store={store}>
-    <MainFrame />
-  </Provider>,
-  document.getElementById('content')
-)
+    <Provider store={store}>
+        <MainFrame />
+    </Provider>,
+    document.getElementById('content')
+);
