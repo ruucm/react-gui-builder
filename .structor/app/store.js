@@ -7,7 +7,6 @@ import createSagaMiddleware from 'redux-saga'
 import reducers from './reducers'
 import sagas from './sagas'
 
-import '../../app/appStyle' // Global App Style
 
 const sagaMiddleware = createSagaMiddleware()
 const devtools = window.devToolsExtension || (() => noop => noop)
