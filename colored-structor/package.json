@@ -1,6 +1,6 @@
 {
-  "name": "structor",
-  "version": "2.3.2",
+  "name": "colored-structor",
+  "version": "0.0.1",
   "description": "Structor - React UI Builder",
   "main": "structor.js",
   "scripts": {
@@ -15,8 +15,6 @@
     "type": "git",
     "url": "git+https://github.com/ipselon/structor.git"
   },
-  "author": "Alex Pustovalov",
-  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/ipselon/structor/issues"
   },
@@ -92,5 +90,10 @@
     "generator",
     "hot-reload",
     "structor"
-  ]
+  ],
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "ruucm",
+  "license": "ISC"
 }
