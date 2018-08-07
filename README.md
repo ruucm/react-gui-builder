@@ -12,7 +12,7 @@ npm run install && npm run dev
 ## Modify react-gui-builder
 
 ```
-cd react-gui-builder && npm install && npm run build-client-dev
+cd colored-structor && yarn install && yarn dev (when you satisfied your modified version, don't forget yarn build)
 ```
 
 ## Export App
@@ -50,7 +50,7 @@ npm run deploy
 ├── build                   # build files  
 ├── internals               # webpack settings for the React App (http://localhost:3000)
 ├── server
-├── structor                # GUI Builder App (structor)
+├── colored-structor        # GUI Builder App (structor)
 ├── .gitignore
 ├── deploy.sh               # deploy script (npm run deploy)
 ├── package.json
