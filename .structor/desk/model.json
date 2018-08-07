@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "pageName": "Page6",
+      "pageName": "HomePage",
       "pagePath": "/home",
       "children": [
         {
