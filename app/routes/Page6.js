@@ -1,12 +1,12 @@
 /**
  *
- * HomePage
+ * Page6
  *
  */
 
 import React, { Component } from "react";
 
-class HomePage extends Component {
+class Page6 extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
   render() {
@@ -23,7 +23,7 @@ class HomePage extends Component {
         >
           <div>
             <h3 style={{ padding: "1em", textAlign: "center" }}>
-              <span>Click on me and start creating a new cool component.</span>
+              <span>work</span>
             </h3>
           </div>
         </div>
@@ -33,4 +33,4 @@ class HomePage extends Component {
   }
 }
 
-export default HomePage;
+export default Page6;
