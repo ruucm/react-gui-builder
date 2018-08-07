@@ -10,6 +10,7 @@
     "build-client": "webpack --config ./build-conf/webpack.config.js --progress",
     "build-client-dev": "webpack --config ./build-conf/webpack-dev.config.js --progress --watch",
     "dev": "webpack --config ./build-conf/webpack-dev.config.js --progress --watch",
+    "build": "webpack --config ./build-conf/webpack.config.js --progress",
     "postinstall": "node ./postexec.js"
   },
   "repository": {
