@@ -17,6 +17,10 @@ import configureStore from "./store";
 const initialState = {};
 const store = configureStore(initialState);
 
+// Global App Style
+import './appStyle'
+
+
 const render = () => {
   ReactDOM.render(
     <Provider store={store}>
