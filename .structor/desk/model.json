@@ -19,6 +19,142 @@
                   "height": "100px",
                   "alignItems": "center",
                   "backgroundColor": "#fcecd7",
+                  "borderRadius": "4px",
+                  "fontFamily": "hey monster!"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Empty div",
+                  "props": {
+                    "style": {
+                      "fontFamily": 0,
+                      "letterSpacing": "1px"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {},
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "flex",
+                  "justifyContent": "center",
+                  "height": "100px",
+                  "alignItems": "center",
+                  "backgroundColor": "#fcecd7",
+                  "borderRadius": "4px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Empty div",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {},
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "flex",
+                  "justifyContent": "center",
+                  "height": "100px",
+                  "alignItems": "center",
+                  "backgroundColor": "#fcecd7",
+                  "borderRadius": "4px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Empty div",
+                  "props": {
+                    "style": {
+                      "fontFamily": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {},
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "flex",
+                  "justifyContent": "center",
+                  "height": "100px",
+                  "alignItems": "center",
+                  "backgroundColor": "#fcecd7",
+                  "borderRadius": "4px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Empty div",
+                  "props": {
+                    "style": {
+                      "color": "#ffffff",
+                      "backgroundColor": "red",
+                      "outlineWidth": "2px",
+                      "fontFamily": null,
+                      "fontSize": "12px",
+                      "fontWeight": 300,
+                      "lineHeight": "14px"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "color": "#6b6161"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "flex",
+                  "justifyContent": "center",
+                  "height": "100px",
+                  "alignItems": "center",
+                  "backgroundColor": "#fcecd7",
                   "borderRadius": "4px"
                 }
               },

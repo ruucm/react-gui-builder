@@ -28,6 +28,7 @@ import {
   CollapsiblePlusOptionInput,
   StyleSizeInput,
   StyleNumberInput,
+  StyleTextInput,
   StyleOptionSelect,
   StyleSwatchesPicker,
 } from 'components'
@@ -178,6 +179,23 @@ class Container extends Component {
                   className="list-group-item"
                 >
                   <StyleNumberInput
+                    valueObject={valueObject}
+                    path={style.path}
+                    isSet={isSet}
+                    onSet={this.handleToggleOption(valueObject)}
+                    onChangeValue={this.handleChangeOption}
+                    isFavorite={isFavoriteOption}
+                    onToggleFavorite={this.handleToggleFavorite}
+                  />
+                </div>
+              )
+            } else if (style.type === 'text') {
+              styleOptionInput = (
+                <div
+                  key={style.path + styleGroupKey}
+                  className="list-group-item"
+                >
+                  <StyleTextInput
                     valueObject={valueObject}
                     path={style.path}
                     isSet={isSet}
