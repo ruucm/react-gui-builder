@@ -13,8 +13,6 @@ class HomePage extends Component {
     return (
       <div>
 
-        <div />
-
         <div style={{ color: "#6b6161" }}>
           <div
             style={{

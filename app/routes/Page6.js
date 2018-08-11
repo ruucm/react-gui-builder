@@ -13,19 +13,10 @@ class Page6 extends Component {
     return (
       <div>
 
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            padding: "1em"
-          }}
-        >
-          <div>
-            <h3 style={{ padding: "1em", textAlign: "center" }}>
-              <span>work page</span>
-            </h3>
-          </div>
+        <div>
+          <h3 style={{ textAlign: "center", padding: "15px" }}>
+            <span>work page</span>
+          </h3>
         </div>
 
       </div>
