@@ -13,18 +13,20 @@ class HomePage extends Component {
     return (
       <div>
 
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            padding: "1em"
-          }}
-        >
-          <div>
-            <h3 style={{ padding: "1em", textAlign: "center" }}>
-              <span>Click on me and start creating a new cool component.</span>
-            </h3>
+        <div />
+
+        <div style={{ color: "#6b6161" }}>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              height: "100px",
+              alignItems: "center",
+              backgroundColor: "#fcecd7",
+              borderRadius: "4px"
+            }}
+          >
+            <span>Hello Colorful World 😊</span>
           </div>
         </div>
 
