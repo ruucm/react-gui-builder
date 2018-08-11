@@ -24,19 +24,25 @@
               "variant": "default",
               "props": {
                 "style": {
-                  "display": "flex",
-                  "justifyContent": "center",
                   "height": "100px",
-                  "alignItems": "center",
                   "backgroundColor": "#fcecd7",
-                  "borderRadius": "4px"
+                  "borderRadius": "4px",
+                  "textAlign": "center",
+                  "paddingTop": "40px",
+                  "paddingBottom": "40px"
                 }
               },
               "children": [
                 {
                   "type": "span",
-                  "text": "Hello Colorful World 😊",
-                  "props": {}
+                  "text": "Hello Colorful World 🖍",
+                  "props": {
+                    "style": {
+                      "lineHeight": "20px",
+                      "backgroundColor": "#b8e986",
+                      "color": "#4a90e2"
+                    }
+                  }
                 }
               ]
             }

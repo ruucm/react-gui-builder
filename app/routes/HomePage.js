@@ -18,15 +18,23 @@ class HomePage extends Component {
         <div style={{ color: "#6b6161" }}>
           <div
             style={{
-              display: "flex",
-              justifyContent: "center",
               height: "100px",
-              alignItems: "center",
               backgroundColor: "#fcecd7",
-              borderRadius: "4px"
+              borderRadius: "4px",
+              textAlign: "center",
+              paddingTop: "40px",
+              paddingBottom: "40px"
             }}
           >
-            <span>Hello Colorful World 😊</span>
+            <span
+              style={{
+                lineHeight: "20px",
+                backgroundColor: "#b8e986",
+                color: "#4a90e2"
+              }}
+            >
+              Hello Colorful World 🖍
+            </span>
           </div>
         </div>
 
