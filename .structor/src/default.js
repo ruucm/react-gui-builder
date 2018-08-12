@@ -1,4 +1,4 @@
-import '../../globalStyle' // Global App Style
+import '../../app/styles/globalStyles' // Global App Style
 import 'babel-polyfill'
 import React from 'react'
 import ReactDOM from 'react-dom'

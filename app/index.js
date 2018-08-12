@@ -18,7 +18,7 @@ const initialState = {}
 const store = configureStore(initialState)
 
 // Global App Style
-import '../globalStyle'
+import './globalStyles'
 
 const render = () => {
   ReactDOM.render(
