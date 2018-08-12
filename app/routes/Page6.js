@@ -23,7 +23,7 @@ class Page6 extends Component {
         >
           <div>
             <h3 style={{ padding: "1em", textAlign: "center" }}>
-              <span>work</span>
+              <span>work page</span>
             </h3>
           </div>
         </div>
