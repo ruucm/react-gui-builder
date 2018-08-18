@@ -16,7 +16,8 @@
     "start:production": "npm run build && npm run start:prod",
     "start:prod": "cross-env NODE_ENV=production node server",
     "dev": "structor -p 2223",
-    "deploy": "npm run build && git add --all && git commit -m 'save master' && git push origin master && bash deploy.sh"
+    "deploy": "npm run build && git add --all && git commit -m 'save master' && git push origin master && bash deploy.sh",
+    "deploy-2": "gh-pages-deploy -- 'deployed using gh-pages-deploy'"
   },
   "babel": {
     "presets": [
@@ -46,6 +47,9 @@
     "hooks": {
       "post-commit": "git push origin master"
     }
+  },
+  "gh-pages-deploy": {
+    "staticpath": "build"
   },
   "dependencies": {
     "babel-polyfill": "6.22.0",
@@ -86,6 +90,7 @@
     "eventsource-polyfill": "^0.9.6",
     "exports-loader": "0.6.3",
     "file-loader": "0.9.0",
+    "gh-pages-deploy": "^0.5.0",
     "html-loader": "0.4.4",
     "html-webpack-plugin": "2.24.0",
     "husky": "^1.0.0-rc.13",
