@@ -16,9 +16,9 @@
     "start:production": "npm run build && npm run start:prod",
     "start:prod": "cross-env NODE_ENV=production node server",
     "dev": "structor -p 2223",
-    "deploy": "npm run build && git add --all && git commit -m && git push origin master && gh-pages-deploy -- 'deployed using gh-pages-deploy'",
-    "deploy-w": "npm run build && git add --all && git commit -m && git push origin master && gh-pages-deploy -- 'deployed using gh-pages-deploy'",
-    "deploy-2": "npm run build && git add --all && git commit -m && git push origin master && gh-pages-deploy -- 'deployed using gh-pages-deploy'"
+    "deploy": "npm run build && git add --all && git commit && git push origin master && gh-pages-deploy -- 'deployed using gh-pages-deploy'",
+    "deploy-w": "npm run build && git add --all && git commit && git push origin master && gh-pages-deploy -- 'deployed using gh-pages-deploy'",
+    "deploy-2": "npm run build && git add --all && git commit && git push origin master && gh-pages-deploy -- 'deployed using gh-pages-deploy'"
   },
   "babel": {
     "presets": [
@@ -108,4 +108,3 @@
     "webpack-hot-middleware": "^2.16.0"
   }
 }
-  
