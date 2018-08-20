@@ -11,7 +11,7 @@
     "init-st": "rm -rf .structor && npm install structor",
     "prebuild": "npm run build:clean",
     "build": "cross-env NODE_ENV=production webpack --config internals/webpack/webpack.prod.babel.js --color -p --progress",
-    "build:clean": "rimraf ./build",
+    "build:clean": " ",
     "start": "cross-env NODE_ENV=development node server",
     "start:production": "npm run build && npm run start:prod",
     "start:prod": "cross-env NODE_ENV=production node server",
