@@ -29,7 +29,7 @@
               "children": [
                 {
                   "type": "span",
-                  "text": "Hello Colorful World 🖍",
+                  "text": "surge build",
                   "props": {
                     "style": {
                       "lineHeight": "20px",
@@ -41,6 +41,23 @@
               ]
             }
           ]
+        },
+        {
+          "type": "Link",
+          "variant": "default",
+          "children": [
+            {
+              "type": "span",
+              "variant": "default",
+              "props": {},
+              "children": [],
+              "text": "work"
+            }
+          ],
+          "namespace": "Router",
+          "props": {
+            "to": "/work"
+          }
         }
       ]
     },
