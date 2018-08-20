@@ -6,8 +6,6 @@
 
 import React, { Component } from "react";
 
-import { Link } from "modules/Router";
-
 class HomePage extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
@@ -33,12 +31,10 @@ class HomePage extends Component {
                 color: "#4a90e2"
               }}
             >
-              surge build
+              Hello Colorful World 🖍🖍
             </span>
           </div>
         </div>
-
-        <Link to="/work"><span>work</span></Link>
 
       </div>
     ); // eslint-disable-line
